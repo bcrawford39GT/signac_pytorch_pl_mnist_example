@@ -4,17 +4,17 @@
 ### Overview
 All the `signac` commands are run from the `<local_path>/signac_pytorch_plmnist_example/signac_pytorch_plmnist_example/project` directory, which include, but are not limited to the following commands:
 
+
 ##### Activate the conda environment:
 - Gor CPU-only installation
 ```bash
-conda conda activate cpu_signac_pytorch_plmnist_example
+conda activate cpu_signac_pytorch_plmnist_example
 ```
 - Gor GPU installation
 ```bash
-conda conda activate gpu_signac_pytorch_plmnist_example
+conda activate gpu_signac_pytorch_plmnist_example
 ```
 
-##### Run or Submit jobs using signac:
  - State point initialization.
 ```bash
 python init.py
